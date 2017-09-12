@@ -20,6 +20,7 @@ module.exports = {
     new HtmlWebpackPlugin({
       template: `${__dirname}/public/assets/templates/index.html`,
       hash: true,
+      inject: true,
     }),
   ],
   devServer: {
