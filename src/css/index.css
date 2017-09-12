@@ -1,0 +1,5 @@
+@import 'foundation.css';
+
+body {
+  background: url('../img/lorempixel.jpg');
+}

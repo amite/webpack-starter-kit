@@ -1,16 +1,13 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 
-import './index.css'
+import './css/index.css'
+import LoremPixel from './img/lorempixel.jpg'
 
 const App = () => {
   return (
     <div className="grid-container fluid">
-      <div className="grid-x grid-margin-x">
-        <div className="cell small-4">cell</div>
-        <div className="cell small-4">cell</div>
-        <div className="cell small-4">cell</div>
-      </div>
+      <img src={LoremPixel} alt="" />
     </div>
   )
 }
